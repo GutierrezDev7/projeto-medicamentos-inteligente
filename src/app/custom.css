@@ -1,0 +1,32 @@
+/* Estilo para botões de ação na tabela de medicamentos */
+.rounded-button, .!rounded-button {
+  border-radius: 9999px !important;
+}
+
+/* Garante que o ícone de editar não seja afetado por estilos globais */
+.table-action-edit img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.table-action-edit {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-action-delete span {
+  color: #dc2626 !important;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1;
+}
