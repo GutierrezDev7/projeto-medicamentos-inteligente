@@ -31,7 +31,6 @@ import {
   FormControl,
   FormMessage,
 } from "@/components/ui/form";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useForm } from "react-hook-form";
 import * as echarts from "echarts";
 import { useEffect, useRef } from "react";
@@ -125,7 +124,6 @@ const Hero: React.FC = () => {
               Baixar App
             </Button>
             <Button
-              variant="outline"
               className="border-white text-white hover:bg-white/10 rounded-button cursor-pointer whitespace-nowrap"
             >
               Ver Demo
@@ -335,7 +333,6 @@ const MedicationList: React.FC = () => {
               Meus Medicamentos
             </CardTitle>
             <Button
-              size="sm"
               className="bg-[#3B82F6] hover:bg-[#1E3A8A] rounded-button cursor-pointer whitespace-nowrap"
             >
               <i className="fas fa-plus mr-2"></i> Adicionar

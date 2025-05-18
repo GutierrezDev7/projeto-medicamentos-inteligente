@@ -1,5 +1,5 @@
 /* Estilo para botões de ação na tabela de medicamentos */
-.rounded-button, .!rounded-button {
+.rounded-button {
   border-radius: 9999px !important;
 }
 
