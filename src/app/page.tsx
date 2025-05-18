@@ -98,7 +98,7 @@ const Header: React.FC = () => {
         </nav>
 
         <div>
-          <Button className="bg-[#3B82F6] hover:bg-[#1E3A8A] text-white !rounded-button cursor-pointer whitespace-nowrap">
+          <Button className="bg-[#3B82F6] hover:bg-[#1E3A8A] text-white rounded-button cursor-pointer whitespace-nowrap">
             Baixar App
           </Button>
         </div>
@@ -121,12 +121,12 @@ const Hero: React.FC = () => {
           </h2>
 
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <Button className="bg-white text-[#1E3A8A] hover:bg-gray-100 !rounded-button cursor-pointer whitespace-nowrap">
+            <Button className="bg-white text-[#1E3A8A] hover:bg-gray-100 rounded-button cursor-pointer whitespace-nowrap">
               Baixar App
             </Button>
             <Button
               variant="outline"
-              className="border-white text-white hover:bg-white/10 !rounded-button cursor-pointer whitespace-nowrap"
+              className="border-white text-white hover:bg-white/10 rounded-button cursor-pointer whitespace-nowrap"
             >
               Ver Demo
             </Button>
@@ -336,7 +336,7 @@ const MedicationList: React.FC = () => {
             </CardTitle>
             <Button
               size="sm"
-              className="bg-[#3B82F6] hover:bg-[#1E3A8A] !rounded-button cursor-pointer whitespace-nowrap"
+              className="bg-[#3B82F6] hover:bg-[#1E3A8A] rounded-button cursor-pointer whitespace-nowrap"
             >
               <i className="fas fa-plus mr-2"></i> Adicionar
             </Button>
@@ -365,7 +365,7 @@ const MedicationList: React.FC = () => {
                   <TableCell className="text-right">
                     <div className="flex gap-2 justify-end items-center">
                       <Button
-                        className="table-action-delete !rounded-button cursor-pointer whitespace-nowrap"
+                        className="table-action-delete rounded-button cursor-pointer whitespace-nowrap"
                         title="Excluir"
                         type="button"
                         tabIndex={0}
@@ -373,7 +373,7 @@ const MedicationList: React.FC = () => {
                         <span>×</span>
                       </Button>
                       <Button
-                        className="table-action-edit !rounded-button cursor-pointer whitespace-nowrap flex items-center justify-center"
+                        className="table-action-edit rounded-button cursor-pointer whitespace-nowrap flex items-center justify-center"
                         title="Editar"
                         type="button"
                         tabIndex={0}
@@ -923,7 +923,7 @@ const ContactForm: React.FC = () => {
                 />
                 <Button
                   type="submit"
-                  className="w-full bg-[#3B82F6] hover:bg-[#1E3A8A] !rounded-button cursor-pointer whitespace-nowrap text-lg font-bold py-3 transition-all duration-200 shadow-md"
+                  className="w-full bg-[#3B82F6] hover:bg-[#1E3A8A] rounded-button cursor-pointer whitespace-nowrap text-lg font-bold py-3 transition-all duration-200 shadow-md"
                 >
                   Enviar Mensagem
                 </Button>
@@ -1068,7 +1068,7 @@ const Footer: React.FC = () => {
                 placeholder="Seu e-mail"
                 className="bg-white/10 border-0 text-white placeholder:text-white/50 rounded-r-none"
               />
-              <Button className="bg-[#3B82F6] hover:bg-blue-700 rounded-l-none !rounded-button cursor-pointer whitespace-nowrap">
+              <Button className="bg-[#3B82F6] hover:bg-blue-700 rounded-l-none rounded-button cursor-pointer whitespace-nowrap">
                 Assinar
               </Button>
             </div>
